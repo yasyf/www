@@ -1,6 +1,6 @@
-# [kern.io](http://www.kern.io)
+# [yasyf.com](http://www.yasyf.com)
 
-My personal site's source code.
+Personal site of Yasyf Mohamedali.
 
 ## Usage
 
@@ -9,7 +9,7 @@ My personal site's source code.
 
 ## Credits
 
-**Thanks** to [Neeraj Baid](http://www.neeraj.io/) and [Graham Hicks](http://grahamhicks.com/) for the design inspiration!
+**Thanks** to [Alex Kern](https://kern.io/), [Neeraj Baid](http://www.neeraj.io/) and [Graham Hicks](http://grahamhicks.com/) for the design inspiration!
 
 ## License
 

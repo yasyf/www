@@ -117,16 +117,12 @@ a:focus,
 a:hover {
   color: #999;
 }
-.logo {
-  margin: 60px 0 40px 20%;
-}
-.logo img {
-  display: block;
-  height: 150px;
-  margin-left: -81px;
+.header {
+  margin-top: 60px;
 }
 h1 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font: 48px/48px 'Cubano', sans-serif;
 }
 h1 a {
   display: block;
@@ -139,17 +135,44 @@ h1 .first-name {
   width: 20%;
   text-align: right;
   padding-right: 10px;
-  color: #bebec0;
+  color: #5bb3fb;
 }
 h1 .last-name {
   display: block;
   float: left;
   width: 80%;
-  color: #ee3724;
+  color: #f508ff;
 }
 .container {
   width: 960px;
   margin: 0 auto;
+}
+.description {
+  width: 100%;
+  font: 24px/32px 'Roboto', sans-serif;
+  margin-left: 50px;
+}
+.hidden {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+.quote {
+  color: #333;
+}
+.tweets {
+  font-size: 14px;
+  margin-top: -25px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 65%;
+}
+.tweets a {
+  color: #bebec0;
 }
 section {
   overflow: hidden;
@@ -159,7 +182,7 @@ section h2 {
   float: left;
   width: 20%;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 12px;
   color: #bebec0;
 }
 section p,
@@ -167,28 +190,14 @@ section ul {
   float: left;
   width: 80%;
 }
+section ul.short {
+  width: 40%;
+}
 section li {
   padding-left: 20px;
   text-indent: -20px;
 }
-.footer {
-  margin: 40px 20px 20px;
-  font: 14px/20px 'Cubano', sans-serif;
-  text-align: center;
-}
-.alp {
-  color: #e58c2c;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.alp:focus,
-.alp:hover {
-  color: #eca961;
-}
-.apple {
+#cool-thing a {
   color: #333;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
@@ -196,57 +205,54 @@ section li {
   -ms-transition: color 0.25s;
   transition: color 0.25s;
 }
-.apple:focus,
-.apple:hover {
+#cool-thing a:focus,
+#cool-thing a:hover {
   color: #666;
 }
-.berkeley {
-  color: #3b5998;
+.footer {
+  margin: 40px 20px 20px;
+  font: 14px/20px 'Cubano', sans-serif;
+  text-align: center;
+}
+.smaller {
+  color: #bebec0;
+  font-size: 10px;
+}
+.smaller a {
+  color: #bebec0;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
   -ms-transition: color 0.25s;
   transition: color 0.25s;
 }
-.berkeley:focus,
-.berkeley:hover {
-  color: #5d7dc0;
+.smaller a:focus,
+.smaller a:hover {
+  color: #ceced0;
 }
-.calhacks {
-  color: #f6b100;
+.drf {
+  color: #713ade;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
   -ms-transition: color 0.25s;
   transition: color 0.25s;
 }
-.calhacks:focus,
-.calhacks:hover {
-  color: #ffc739;
+.drf:focus,
+.drf:hover {
+  color: #956be6;
 }
-.ditto {
-  color: #800080;
+.sbc {
+  color: #de6e3a;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
   -ms-transition: color 0.25s;
   transition: color 0.25s;
 }
-.ditto:focus,
-.ditto:hover {
-  color: #e000df;
-}
-.email {
-  color: #ee3724;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.email:focus,
-.email:hover {
-  color: #f2695b;
+.sbc:focus,
+.sbc:hover {
+  color: #e6926b;
 }
 .facebook {
   color: #3b5998;
@@ -260,18 +266,6 @@ section li {
 .facebook:hover {
   color: #5d7dc0;
 }
-.filepizza {
-  color: #ee3724;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.filepizza:focus,
-.filepizza:hover {
-  color: #f2695b;
-}
 .github {
   color: #333;
   -webkit-transition: color 0.25s;
@@ -284,104 +278,8 @@ section li {
 .github:hover {
   color: #666;
 }
-.hackbot {
-  color: #19a84c;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.hackbot:focus,
-.hackbot:hover {
-  color: #30e06f;
-}
-.hh {
-  color: #19a84c;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.hh:focus,
-.hh:hover {
-  color: #30e06f;
-}
-.jpl {
-  color: #ee3724;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.jpl:focus,
-.jpl:hover {
-  color: #f2695b;
-}
-.kairos {
-  color: #ee3724;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.kairos:focus,
-.kairos:hover {
-  color: #f2695b;
-}
-.medium {
-  color: #333;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.medium:focus,
-.medium:hover {
-  color: #666;
-}
-.pavlov {
-  color: #800080;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.pavlov:focus,
-.pavlov:hover {
-  color: #e000df;
-}
-.puddin {
-  color: #e58c2c;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.puddin:focus,
-.puddin:hover {
-  color: #eca961;
-}
-.stab {
-  color: #f6b100;
-  -webkit-transition: color 0.25s;
-  -moz-transition: color 0.25s;
-  -o-transition: color 0.25s;
-  -ms-transition: color 0.25s;
-  transition: color 0.25s;
-}
-.stab:focus,
-.stab:hover {
-  color: #ffc739;
-}
 .twitter {
-  color: #55acee;
+  color: #5bb3fb;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -390,7 +288,127 @@ section li {
 }
 .twitter:focus,
 .twitter:hover {
-  color: #80c1f2;
+  color: #84c6fc;
+}
+.linkedin {
+  color: #3b5998;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.linkedin:focus,
+.linkedin:hover {
+  color: #5d7dc0;
+}
+.resume {
+  color: #333;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.resume:focus,
+.resume:hover {
+  color: #666;
+}
+.shamer {
+  color: #ee3724;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.shamer:focus,
+.shamer:hover {
+  color: #f2695b;
+}
+.vc {
+  color: #f508ff;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.vc:focus,
+.vc:hover {
+  color: #f746ff;
+}
+.drfbot {
+  color: #713ade;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.drfbot:focus,
+.drfbot:hover {
+  color: #956be6;
+}
+.square {
+  color: #333;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.square:focus,
+.square:hover {
+  color: #666;
+}
+.js {
+  color: #5bb3fb;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.js:focus,
+.js:hover {
+  color: #84c6fc;
+}
+.foxtrot {
+  color: #ee3724;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.foxtrot:focus,
+.foxtrot:hover {
+  color: #f2695b;
+}
+.loc {
+  color: #de6e3a;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.loc:focus,
+.loc:hover {
+  color: #e6926b;
+}
+.sos {
+  color: #713ade;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  transition: color 0.25s;
+}
+.sos:focus,
+.sos:hover {
+  color: #956be6;
 }
 @media (max-width: 1279px) {
   .container {

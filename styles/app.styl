@@ -4,17 +4,20 @@
 asphalt = #777777
 black = #333333
 blue = #3B5998
-cyan = #55ACEE
+cyan = #5BB3FB
 gray = #BEBEC0
-green = #19A84C
-orange = #E58C2C
+green = #92EACA
+orange = #DE6E3A
 red = #EE3724
-yellow = #F6B100
+yellow = #FBCA41
+pink = #F508FF
+purple = #713ADE
 
 //=======
 // Fonts
 
 default-font = 'Cubano', sans-serif
+text-font = 'Roboto', sans-serif
 
 @font-face
     font-family 'Cubano'
@@ -55,16 +58,12 @@ body
 a
     link-color asphalt
 
-.logo
-    margin 60px 0 40px 20%
-
-    img
-        display block
-        height 150px
-        margin-left -81px // Lines up the Ks.
+.header
+    margin-top 60px
 
 h1
-    margin-bottom 40px
+    margin-bottom 20px
+    font 48px/48px default-font
 
     a
         display block
@@ -77,17 +76,43 @@ h1
         width 20%
         text-align right
         padding-right 10px
-        color gray
+        color cyan
 
     .last-name
         display block
         float left
         width 80%
-        color red
+        color pink
 
 .container
     width 960px
     margin 0 auto
+
+.description
+    width 100%
+    font 24px/32px text-font
+    margin-left 50px
+
+.hidden
+    display none
+
+a
+    text-decoration none
+
+.quote
+    color black
+
+.tweets
+    font-size 14px
+    margin-top: -25px
+    margin-bottom: 15px
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    width: 65%
+
+    a
+        color gray
 
 section
     overflow hidden
@@ -97,43 +122,54 @@ section
         float left
         width 20%
         text-align right
-        padding-right 10px
+        padding-right 12px
         color gray
 
     p, ul
         float left
         width 80%
 
+    ul.short
+        width 40%
+
     li
         padding-left 20px
         text-indent -20px
+
+#cool-thing
+    a
+        link-color black
 
 .footer
     margin 40px 20px 20px
     font 14px/20px default-font
     text-align center
 
+.smaller
+    color gray
+    font-size 10px
+
+    a
+        link-color gray
+
 //===============
 // Link Coloring
 
-.alp       { link-color: orange }
-.apple     { link-color: black }
-.berkeley  { link-color: blue }
-.calhacks  { link-color: yellow }
-.ditto     { link-color: purple }
-.email     { link-color: red }
+.drf       { link-color: purple }
+.sbc       { link-color: orange }
 .facebook  { link-color: blue }
-.filepizza { link-color: red }
 .github    { link-color: black }
-.hackbot   { link-color: green }
-.hh        { link-color: green }
-.jpl       { link-color: red }
-.kairos    { link-color: red }
-.medium    { link-color: black }
-.pavlov    { link-color: purple }
-.puddin    { link-color: orange }
-.stab      { link-color: yellow }
 .twitter   { link-color: cyan }
+.linkedin  { link-color: blue }
+.resume    { link-color: black }
+.shamer    { link-color: red }
+.vc        { link-color: pink }
+.drfbot    { link-color: purple }
+.square    { link-color: black }
+.js        { link-color: cyan }
+.foxtrot   { link-color: red }
+.loc       { link-color: orange }
+.sos       { link-color: purple }
 
 //===============
 // Media Queries

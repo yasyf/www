@@ -9,7 +9,7 @@ Personal site of Yasyf Mohamedali.
 
 ## Credits
 
-**Thanks** to [Alex Kern](https://kern.io/), [Neeraj Baid](http://www.neeraj.io/) and [Graham Hicks](http://grahamhicks.com/) for the design inspiration!
+Cheers to [Alex Kern](https://kern.io/), [Neeraj Baid](http://www.neeraj.io/) and [Graham Hicks](http://grahamhicks.com/) for the design inspiration!
 
 ## License
 

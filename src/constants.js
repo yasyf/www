@@ -11,7 +11,7 @@ const coolThings = [
 ];
 
 const meta = {
-  description: 'Yasyf Mohamedali: Student. Engineer. Entrepreneur. CS @ MIT. Investment Partner at DormRoomFund. Previously at Foxtrot, Square. Proudly Canadian!',
+  description: 'Yasyf Mohamedali: Student. Engineer. Entrepreneur. CS @ MIT. Managing Partner at Dorm Room Fund Boston. Previously at Facebook, Foxtrot, Square. Proudly Canadian!',
   url: 'http://www.yasyf.com',
   title: 'Yasyf Mohamedali - Student | Entrepreneur | Engineer',
   twitterHandle: 'yasyf',

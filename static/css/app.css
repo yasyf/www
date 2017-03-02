@@ -243,7 +243,7 @@ section li {
   color: #956be6;
 }
 .sbc {
-  color: #de6e3a;
+  color: #5bb3fb;
   -webkit-transition: color 0.25s;
   -moz-transition: color 0.25s;
   -o-transition: color 0.25s;
@@ -252,7 +252,7 @@ section li {
 }
 .sbc:focus,
 .sbc:hover {
-  color: #e6926b;
+  color: #84c6fc;
 }
 .facebook {
   color: #3b5998;

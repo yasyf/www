@@ -1,6 +1,7 @@
 const STATIC = `${__dirname}/../static`;
 
 const coolThings = [
+  { description: "a model for the world's hardest game", link: 'https://github.com/yasyf/hardest-game' },
   { description: 'a voting site for consensus-run funds', link: 'https://github.com/yasyf/vc' },
   { description: 'a slack bot for venture capital', link: 'https://github.com/yasyf/drfbot' },
   { description: 'a gamified code coverage leaderboard', link: 'https://github.com/yasyf/shamer' },

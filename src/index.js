@@ -27,7 +27,7 @@ app.locals = constants;
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Hey', message: 'Hello there!'});
+  res.render('index');
 });
 
 app.get('/api/coolThings.json', (req, res) => {

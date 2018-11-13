@@ -2,7 +2,7 @@
   "name": "yasyf-www",
   "version": "0.0.1",
   "engines": {
-    "node": "6.9.1"
+    "node": "10.10.0"
   },
   "description": "Personal site of Yasyf Mohamedali.",
   "main": "src/index.js",

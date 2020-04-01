@@ -1,7 +1,11 @@
 @font-face {
-  font-family: 'Cubano';
+  font-family: "Cubano";
   src: url("/fonts/cubano-webfont.eot");
-  src: url("/fonts/cubano-webfont.eot?#iefix") format('embedded-opentype'), url("/fonts/cubano-webfont.woff2") format('woff2'), url("/fonts/cubano-webfont.woff") format('woff'), url("/fonts/cubano-webfont.ttf") format('truetype'), url("/fonts/cubano-webfont.svg#cubanoregular") format('svg');
+  src: url("/fonts/cubano-webfont.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/cubano-webfont.woff2") format("woff2"),
+    url("/fonts/cubano-webfont.woff") format("woff"),
+    url("/fonts/cubano-webfont.ttf") format("truetype"),
+    url("/fonts/cubano-webfont.svg#cubanoregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -102,7 +106,7 @@ a img {
   box-sizing: border-box;
 }
 body {
-  font: 32px/40px 'Cubano', sans-serif;
+  font: 32px/40px "Cubano", sans-serif;
   color: #777;
 }
 a {
@@ -122,7 +126,7 @@ a:hover {
 }
 h1 {
   margin-bottom: 20px;
-  font: 48px/48px 'Cubano', sans-serif;
+  font: 48px/48px "Cubano", sans-serif;
 }
 h1 a {
   display: block;
@@ -149,7 +153,7 @@ h1 .last-name {
 }
 .description {
   width: 100%;
-  font: 24px/32px 'Roboto', sans-serif;
+  font: 24px/32px "Roboto", sans-serif;
   margin-left: 50px;
 }
 .hidden {
@@ -211,7 +215,7 @@ section li {
 }
 .footer {
   margin: 40px 20px 20px;
-  font: 14px/20px 'Cubano', sans-serif;
+  font: 14px/20px "Cubano", sans-serif;
   text-align: center;
 }
 .smaller {
@@ -418,7 +422,7 @@ section li {
 }
 @media (max-width: 959px) {
   body {
-    font: 28px/30px 'Cubano', sans-serif;
+    font: 28px/30px "Cubano", sans-serif;
   }
   .logo {
     margin: 40px 0 20px 50%;
@@ -447,6 +451,10 @@ section li {
     margin-bottom: 15px;
   }
   .footer {
-    font: 12px/15px 'Cubano', sans-serif;
+    font: 12px/15px "Cubano", sans-serif;
   }
+}
+
+#cool-thing-wrapper {
+  width: 90%;
 }

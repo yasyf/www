@@ -53,7 +53,7 @@ const coolThings = [
 
 const meta = {
   description:
-    "Yasyf Mohamedali: Engineer. Entrepreneur. Co-Founder & Co-CTO @ Sym. Previously: Karuna Health, MIT, Facebook, & First Round. Proudly Canadian!",
+    "Yasyf Mohamedali: Engineer. Entrepreneur. Co-Founder & CTO @ Sym. Previously: Karuna Health, MIT, Facebook, & First Round. Proudly Canadian!",
   url: "http://www.yasyf.com",
   title: "Yasyf Mohamedali - Entrepreneur | Engineer",
   twitterHandle: "yasyf",
